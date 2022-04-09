@@ -2,4 +2,4 @@
 dio-desafio-github
 
 ## Links Úteis
-[MarkDown](https://www.markdownguide.org/basic-syntax/)
+[MarkDown Sintaxe Básica](https://www.markdownguide.org/basic-syntax/)
