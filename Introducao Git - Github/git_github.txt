@@ -1,5 +1,5 @@
-GIT		(https://git-scm.com/)
--------------------------------
+﻿GIT	(https://git-scm.com/)
+------------------------------
 
 Versionador de programas
 
@@ -47,7 +47,6 @@ git push origin master
 	Sera solicitado a senha no GITHUB
 
 
-	
 git clone <link_repositorio>
 
 	Baixara o projeto no repositorio local
@@ -73,10 +72,11 @@ git config --list
 
 	Mostrara as configuracoes atuais
 	
-	
-	
-	
-	
+GIT Bash
+--------
+Terminal extendido para otimizar o uso do GIT.
+
+		
 Comandos Unix utilizados no GIT:	
 	
 	
@@ -87,5 +87,19 @@ mv 				--> mover arquivos
 echo > <arquivo>--> cria arquivo
  
 
+
+GITHUB (https://github.com/)
+-----------------------------------------------------------------------------------------------------------------
+areynaveiro@gmail.com
+SBIGNIFF1a
+areynaveiro
+
+Repositório remoto dos programas
+
+Se cadastrar como estudante
+
+criar um novo repositorio para o projeto
+
+No box push, copiar o endereco html para configurar no GIT
 
 
