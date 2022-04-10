@@ -92,12 +92,123 @@ Declaração de Classes
 
 Modificadores de Acesso
 
+	public
+		Qualquer classe de qualquer pacote poderá acessar o 
+		atributo ou método.
+	
+	protected
+		Qualquer classe definida no mesmo pacote ou subclasse.
+	
+	Sem modificador
+		Apenas classes definidas no mesmo pacote.
+		
+	
 
 Métodos
-
-
+	São funções que definem o comportamento de uma classe.
+	
+	Tipos de métodos:
+	
+		Contrutores
+			Definenm como uma classe será instanciada "construída".
+			
+		Comum
+			Definem comportamentos que podem ou não estar atribuídas
+			às regras de negócio.
+			
+			Exemplo: calcular taxas de um pedido, etc...
+			
+		
 Estrutura de Condição
-
+	Responsável por fazer o desvio do fluxo de execução do código
+	de acordo com uma condição.
+	
+	Tipos de estruturas de condição:
+	
+	if - else
+		// metodo
+		public double calculateFee() {
+		
+			if(this.totalValue > 100) {
+				return this.totalValue * 0.99;				
+			} else {
+				return this.totalValue;
+			}
+			
+		}
+		
+	switch - case
+	
+		public double calculateFee() {
+		
+			switch (this.totalValue) {
+				case 100:
+					return totalValue * 0.99;
+				case 200:
+					return totalValue * 1.99;
+				default:
+					return totalValue;				
+			}
+		}
+	
 Estrutura de Repetição
+	Responsável por executar repetidamente uma instrução ou um
+	bloco de instruções, até uma condição estiver sendo satisfeita.
+	
+	Tipos de estruturas de repetição:
 
+	while
+	
+		public void printItens() {
+		
+			int i = 0;
+				
+			while (i < itens.length) {
+				
+				System.out.println(itens[i]);
+				i++;
+				
+			}
+				
+		}
+	
+	do - while
+
+		public void printItens() {
+		
+			int i = 0;
+				
+			do {
+				
+				System.out.println(itens[i]);
+				i++;
+				
+			} while (i < itens.length)
+				
+		}
+	
+	
+	for
+	
+		public void printItens() {
+
+			for (int i = 0; i < itens.length; i++) {
+
+				System.out.println(itens[i]);
+
+			}
+		}
+		
+	enhanced for
+	
+		public void printItens() {
+	
+			for (String i : itens) {
+			
+				System.out.println(i);
+
+			}
+		}
+		
+		
 		
