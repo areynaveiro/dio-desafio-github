@@ -209,6 +209,51 @@ Estrutura de Repetição
 
 			}
 		}
-		
-		
-		
+
+Comentário JAVA
+---------------
+	// Comentário em linha
+    
+    /**
+    	*Comentário em 
+    	*bloco
+    */
+    
+JAVADOC
+-------
+
+	Ferramenta para documentação no formato HTML que se baseia nos comentários do código fonte.
+
+	Os comentários precisam conter tags para que a documentação fique legível.
+    
+    TAGS 
+    
+    	@author - Especifica o autor da classe/método
+        
+        @deprecated - Identifica classes/métodos obsoletos
+        
+        @link - Possibilita a definição de um link para um outro documento local ou remoto através de URL
+        
+        @param - Descreve um parâmetro que será passado a um método
+        
+        @return - Descreve qual o tipo de retorno de um método
+        
+        @see - Associa a outras classes ou métodos
+        
+        @since - Descreve desde de quando uma classe ou métodos foi adicionado
+        
+        @throws - Descreve os tipos de exceções que podem ser lançadas por um método
+        
+        @version - Descreve a versão da classe/método
+       
+Comunidade JAVA
+---------------
+[OpenSanca](opensanca.com.br)
+    
+[SouJava](soujava.org.br)
+
+[DevOpsPBS](devopspbs.org)
+    
+
+
+

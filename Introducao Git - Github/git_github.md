@@ -1,5 +1,5 @@
-﻿GIT	(https://git-scm.com/)
-------------------------------
+ GIT	(https://git-scm.com/)
+ ------------------------------
 
 Versionador de programas
 
@@ -8,13 +8,11 @@ CICLOS GIT
 
 Untracked			Unmodified			Modified			Staged
 
-adiciona arquivo -------->	
-	
+adiciona arquivo -------->
 					Edita arquivo --------->
-
 										git add * -------------->
 
-							<--------------------------------git commit -m "<texto versao>"
+							<-----------------------------git commit -m "<texto versao>"
 							
 git init		--> inicia um repositorio vazio /.git (diretório oculto - Pasta gerencial do GIT)
 
