@@ -30,6 +30,10 @@ Características da linguagem JAVA:
 					Compilação							Interpreção
 Source File (.java) 	--> 	Bytecodes (.class) 			--> 		JAVA (JVM)
 
+
+![FasesExecucaoProgramasJava!](c:workspace/dio-desafio-github/Java/Conceitos/images/FasesExecucaoProgramasJava.PNG "Fases Execucao Programas Java")
+
+
 	Características:
 		
 		Execução de pilhas
