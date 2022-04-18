@@ -31,7 +31,7 @@ Características da linguagem JAVA:
 Source File (.java) 	--> 	Bytecodes (.class) 			--> 		JAVA (JVM)
 
 
-![FasesExecucaoProgramasJava!](./images/FasesExecucaoProgramasJava.PNG)
+![FasesExecucaoProgramasJava](./images/FasesExecucaoProgramasJava.PNG)
 
 
 	Características:
