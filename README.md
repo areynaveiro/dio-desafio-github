@@ -5,6 +5,8 @@ Repositório criado para o desadio DIO.
 
 [JAVADOC](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html)
 
+[JDK Documentation](https://docs.oracle.com/en/java/javase/11/)
+
 [MarkDown Sintaxe Básica](https://www.markdownguide.org/basic-syntax/)
 
 
@@ -14,6 +16,12 @@ Repositório criado para o desadio DIO.
 
 [GITHUB](https://github.com/)
 
+[Eclipse IDE](https://www.eclipse.org/downloads/)
+
+[IntelliJ IDEA IDE](https://www.jetbrains.com/pt-br/idea/)
+
 [Java Download JDK](https://www.oracle.com/java/technologies/javase/jdk14-archive-downloads.html)
+
+
 
 

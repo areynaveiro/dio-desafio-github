@@ -44,14 +44,16 @@ Source File (.java) 	--> 	Bytecodes (.class) 			--> 		JAVA (JVM)
 			Responsável pela limpeza da memória suja.
 		
 		
-Diferença entree JRE e JDK:
+##Diferença entree JRE e JDK:
 
 	JRE (JAVA Runtime Environment) 
-		Responsável pela execução dos programas JAVA.
+		Responsável pela execução dos programas JAVA. Aqui estão as bibliotecas padrão do JAVA, utilizadas na compilação do código-fonte. O JVM, responsável pela execução do bytecode está incluido no JRE.
+        Para rodar o programa na sua máquina basta ter apenas o JRE.
 		
 	JDK (JAVA Development Kit)
 		Utilitário que permite o desenvolvimento de programas em JAVA e
 		já possui o JVM para execução dos programas. 
+        Kit de Desenvolvimento JAVA responsável por compilar código-fonte (.java) em bytecode (.class)
 		
 Tipos de plataformas JAVA:
 
@@ -59,7 +61,6 @@ JAVA SE (JAVA Standard Edition)
 	Contém as especificações do JAVA e pode ser
 	implementado por diversas empresas.
 
-	
 JAVA EE (JAVA Enterprise Edition)
 	Contém  todas as implementações do JAVA SE e 
 	um número de programas úteis para que executam em
@@ -70,12 +71,40 @@ JAVA ME (JAVA Micro Edition)
 	programas para dispositivos pequenos como celulares,
 	PDA's entre outros.
 		
-		
+##Fases da Execução JAVA
+	1. Escrevemos o código-fonte (.java)
+	2. Utilizamos o JDK para compilar o código-fonte e gerar o arquivo bytecode (.class)
+	3. Para executar o seu programa, a JVM lé o arquivo compilado e as bibliotecas padrões do JAVA que estão no JRE
+
+    
 Palavras Reservadas
 	Como todas as linguagens de programação exitem algumas palavras
 	que são reservadas ao JAVA e não podem ser definidas para dar um
 	nome a classe, método, variável, etc...
 
+
+## Versões do JAVA
+###OpenJDK
+	Java totalmente open source com uma GNU.
+### JDK Oracle
+	Requer uma licença comercial sob contrato de licença de código binário Oracle.
+
+## Instalação JAVA
+	Verificar se o JAVA está instalado na máquina:
+   		java --version
+        
+    Baixar JDK e instalar no equipamento
+    
+    Adicionar a variável de ambiente JAVA_HOME, informando o diretório de instalação do JDK
+    
+    Alterar a variável de ambiente PATH, adicionando o diretório de instalação do JDK
+    
+    via CMD, set JAVA_HOME
+    
+    via CMD, set PATH
+    
+    java --version, mostrará a versão do JAVA instalada no equipamento
+    
 Declaração de Classes
 
 	   
@@ -259,5 +288,7 @@ Comunidade JAVA
 [DevOpsPBS](devopspbs.org)
     
 
-
+##Referências
+	Dio.me Bootcamp - GFT Start #4 Java
+    
 

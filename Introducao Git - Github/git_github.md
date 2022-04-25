@@ -3,8 +3,20 @@
 
 Versionador de programas
 
+## Instalação do GIT
+	Para verificar se o GIT está instalado no equipamento:
+    
+    	git --version
+        
+        Efetuar o download do GIT
+        
+        Instalar o GIT
+        
+        git --version, mostrará a versão do GIT instalado no equipamento
+        
+   
 
-CICLOS GIT
+##CICLOS GIT
 
 Untracked			Unmodified			Modified			Staged
 
