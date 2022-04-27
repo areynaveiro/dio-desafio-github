@@ -13,6 +13,12 @@ Recomendado instalar antes o JAVA JDK
     
     Executar o Eclipse, automaticamente ele indicará um Workspace DEFAULT, C:\Users\<usuário>\eclipse-workspace
     
+###Atalhos
+CTRL+n - Abrirá um Wizard para seleção do que você desejaria criar.
+
+CTRL+espaço - Após a palavra digitada, dará sugestão para complementação da plavra digitada.
+
+
 
 ##IntelliJ IDEA
 ###Instalação
