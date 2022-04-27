@@ -22,6 +22,8 @@ Repositório criado para o desadio DIO.
 
 [Java Download JDK](https://www.oracle.com/java/technologies/javase/jdk14-archive-downloads.html)
 
+[Becas Santander](https://app.becas-santander.com/pt-BR/program/bolsas-santander-tecnologia-santander-bootcamp-2022)
+
 
 
 
