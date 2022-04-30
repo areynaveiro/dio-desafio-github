@@ -18,6 +18,14 @@ CTRL+n - Abrirá um Wizard para seleção do que você desejaria criar.
 
 CTRL+espaço - Após a palavra digitada, dará sugestão para complementação da plavra digitada.
 
+F2 - Renomear
+
+###Debug
+
+F5 - Entra no método onde está o Breakpoint
+F7 - Rtorna para o ponto da chamada através do F5
+F6 - Executa o próximo passo
+F8 - Executa todo o processo
 
 
 ##IntelliJ IDEA
@@ -34,7 +42,9 @@ CTRL+espaço - Após a palavra digitada, dará sugestão para complementação d
     
 	Entrar na IDE, aceitar os termos     
     
-    
+###Visual Studio Code
+IDE mais direcionado para a programação JAVASCRIPT, entretanto alguns programadores JAVA estão utilizando esta IDE.
+
 
 
 

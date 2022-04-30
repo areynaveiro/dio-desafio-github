@@ -1,6 +1,3 @@
-# Desafio de projeto GIT/GITHUB
-Repositório criado para o desadio DIO.
-
 ## Documentação
 
 [JAVADOC](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html)
@@ -22,6 +19,15 @@ Repositório criado para o desadio DIO.
 
 [Java Download JDK](https://www.oracle.com/java/technologies/javase/jdk14-archive-downloads.html)
 
+[Visual Studio Code IDE](https://code.visualstudio.com/)
 
 
+##Comunidade JAVA
+
+[OpenSanca](opensanca.com.br)
+    
+[SouJava](soujava.org.br)
+
+[DevOpsPBS](devopspbs.org)
+    
 
