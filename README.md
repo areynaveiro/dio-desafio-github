@@ -19,7 +19,12 @@
 
 [Java Download JDK](https://www.oracle.com/java/technologies/javase/jdk14-archive-downloads.html)
 
+<<<<<<< HEAD
 [Visual Studio Code IDE](https://code.visualstudio.com/)
+=======
+[Becas Santander](https://app.becas-santander.com/pt-BR/program/bolsas-santander-tecnologia-santander-bootcamp-2022)
+
+>>>>>>> 47b80a9bde7dbbf13043bacdadd2b9f61a0c375d
 
 
 ##Comunidade JAVA
