@@ -39,7 +39,7 @@ git config --global --unset user.nickname
 git config --global --unset user.name
 	
 	Reset nestas variáveis no GIT, interessante ficar com os mesma configuração do GITHUB
-	
+
 git remote add origin https://github.com/areynaveiro/livro-receitas.git	
 	
 	Configurando o repositorio remoto para o projeto
@@ -49,13 +49,18 @@ git remote add origin https://github.com/areynaveiro/livro-receitas.git
 git remote -v
 
 	Mostrara todos os repositorios remotos cadastrados
-	
+
+git pull --rebase
+
+	Atualizará os programas alterados por outros desenvs no repositório remoto para o seu repositório local.
+    
 git push origin master
 
 	Enviar os arquivos do repositorio local para o remoto
 	
 	Sera solicitado a senha no GITHUB
 
+	Caso esteja tudo bem configurado, basta executar o comando git push
 
 git clone <link_repositorio>
 
@@ -64,7 +69,8 @@ git clone <link_repositorio>
 	
 git add *
 
-	Adicionar as alterações para o Commit
+	Adicionar as alterações para o Commit geralmente em vermelho, após o add, as alterações ficarão em verde, possibilitando a execução do git commit.
+    
 	
 git commit -m "<texto versao>"
 
@@ -82,52 +88,38 @@ git config --list
 
 	Mostrara as configuracoes atuais
 	
-#ANALISAR
-	
-- Verificar a existência de repositório local na máquina
-- acessar o BitBucket e copiar o link para clonar o projeto
-- abrir Power Shell
-- git clone <url copiada do BitBucket>
-- cd <acessar o repositório baixado>
-- git pull --rebase
-	atualizará os programas alterados por outros desenvs, dentro do intervalo do último 	clone efetuado.
-- jogar os programas alterados para o repositório local
-- git status
-	apresentará os programas alterados em vermelho
-- git add *
-- git status
-	apresentará os programas alterados em verde
-- git commit -m "<JIRA> - <projeto> - <o que foi feito>
-- git push
+###Para voltar uma determinada versão
+	git log --> pegar o hash
+	git checkout <hash>
 
-------------------------------------------------------------------------------------------------
-Para voltar uma determinada versão:
-git log --> pegar o hash
-git checkout <hash>
-------------------------------------------------------------------------------------------------
-Para descartar as alterações:
-"git restore <file>..." to discard changes in working directory
+###Para descartar as alterações
 
-----------------------------------------------------------------------------------------------------
-Faça com que o Git armazene o nome de usuário e a senha e ele jamais pedirá por eles novamente.
-git config --global credential.helper store
-----------------------------------------------------------------------------------------------------
-Salvar o nome de usuário e a senha por uma sessão (colocá-los em cache);
-git config --global credential.helper cache
------------------------------------------------------------------------------------------------------------------
-Também é possível definir um tempo de expiração (timeout) para a configuração acima
-git config --global credential.helper 'cache --timeout=600'
----------------------------------------------------------------------------------------------------------------
-git config <escopo> --unset credential.helper
-Onde o <escopo> pode ser --local, --global ou --system.
----------------------------------------------------------------------------------------------------------------
-Deletar Branch
-git checkout feature... (muda de branch)
-git push origin --delete <nome do branch> (deletar a branch) 
--------------------------------------------------------------------------------------
+	git restore <file>... to discard changes in working directory
 
-	
-	
+###Faça com que o Git armazene o nome de usuário e a senha e ele jamais pedirá por eles novamente
+
+	git config --global credential.helper store
+
+###Salvar o nome de usuário e a senha por uma sessão (colocá-los em cache)
+
+	git config --global credential.helper cache
+
+###Também é possível definir um tempo de expiração (timeout)
+
+	git config --global credential.helper 'cache --timeout=600'
+
+
+###Remover configuração Inicial
+
+	git config <escopo> --unset credential.helper
+
+	Onde o <escopo> pode ser --local, --global ou --system.
+
+###Deletar Branch
+
+	git checkout feature... (muda de branch)
+	git push origin --delete <nome do branch> (deletar a branch) 
+
 	
 GIT Bash
 --------
