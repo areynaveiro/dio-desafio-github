@@ -82,6 +82,53 @@ git config --list
 
 	Mostrara as configuracoes atuais
 	
+#ANALISAR
+	
+- Verificar a existência de repositório local na máquina
+- acessar o BitBucket e copiar o link para clonar o projeto
+- abrir Power Shell
+- git clone <url copiada do BitBucket>
+- cd <acessar o repositório baixado>
+- git pull --rebase
+	atualizará os programas alterados por outros desenvs, dentro do intervalo do último 	clone efetuado.
+- jogar os programas alterados para o repositório local
+- git status
+	apresentará os programas alterados em vermelho
+- git add *
+- git status
+	apresentará os programas alterados em verde
+- git commit -m "<JIRA> - <projeto> - <o que foi feito>
+- git push
+
+------------------------------------------------------------------------------------------------
+Para voltar uma determinada versão:
+git log --> pegar o hash
+git checkout <hash>
+------------------------------------------------------------------------------------------------
+Para descartar as alterações:
+"git restore <file>..." to discard changes in working directory
+
+----------------------------------------------------------------------------------------------------
+Faça com que o Git armazene o nome de usuário e a senha e ele jamais pedirá por eles novamente.
+git config --global credential.helper store
+----------------------------------------------------------------------------------------------------
+Salvar o nome de usuário e a senha por uma sessão (colocá-los em cache);
+git config --global credential.helper cache
+-----------------------------------------------------------------------------------------------------------------
+Também é possível definir um tempo de expiração (timeout) para a configuração acima
+git config --global credential.helper 'cache --timeout=600'
+---------------------------------------------------------------------------------------------------------------
+git config <escopo> --unset credential.helper
+Onde o <escopo> pode ser --local, --global ou --system.
+---------------------------------------------------------------------------------------------------------------
+Deletar Branch
+git checkout feature... (muda de branch)
+git push origin --delete <nome do branch> (deletar a branch) 
+-------------------------------------------------------------------------------------
+
+	
+	
+	
 GIT Bash
 --------
 Terminal extendido para otimizar o uso do GIT.
