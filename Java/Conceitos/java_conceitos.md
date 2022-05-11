@@ -1,6 +1,62 @@
 #Introdução ao Ecossistema e Documentação Java
 
-Características da linguagem JAVA:
+## Início do JAVA
+Interessada em dispositivos eletrônicos inteligentes, a Sun Microsystems financiou uma pesquisa interna com o codinome Green. O projeto resultou no desenvolvimento de uma linguagem de programação baseada em C e C++, cujo o criador James Gosling, a chamou de OAK (carvalho) em homenagem a uma árvore  que estava em frente a sua janela do escritório na Sun.
+
+Hoje a linguagem de programação JAVA é mantida pela Oracle Inc.
+
+## Programação Orientado a Objetos
+Um objeto é uma absttração do mundo real, composto por um identificador (nome), atributos (propriedades) e métodos (comportamentos) definidos em uma classe.
+
+* Instanciar (new)
+	É o ato de criar um objeto a partir de estrutura definida em uma classe
+    
+* Comportamentos (behavior)
+	Também conhecido como ações ou métodos, é toda parte comportamental que um objeto dispõe.
+    
+* Características (states)
+	Também conhecido como atributos ou propriedades, é toda informação que representa o estado do objeto
+    
+* Identificador (identity)
+	Propósito existencial aos objetos que serão criados
+    
+* Classe (class)
+	A estrutura e/ou representação que direciona a criação dos objetos de mesmo tipo
+
+![ObjectsandClass](./images/ObjectsandClass.PNG)
+
+Quando falamos em programar em JAVA devemos  dominar além dos fundamentos da linguagem, um conjunto de ferramentas e frameworks exclusivos.
+
+Abaixo segue lista de tecnologias que iremos utilizar:
+
+* Java JDK
+	Kit de ferramentas para desenvolvimento na linguagem.
+    
+* Eclipse IDE
+	Programa para edição, depuração, compilação, testes e execução de programas JAVA.
+    
+* Hibernate
+	Framework baseado no conceito de ORM para a persistência de dados em um banco relacional.
+    
+* Spring Framework
+	Plataforma para desenvolvimento de aplicações JAVA baseado nos padrões de projeto de inversão de controle e injeção de dependências.
+    
+    Sua estrutura é composta por módulos afins de reduzir a complexidade no desenvolvimento de aplicações.
+    
+* Postgres
+	Banco de dados relacional.
+* Swagger
+	Ferramenta de documentação de APIs e Webservices.
+* Github
+	Repositório e gerenciador de versionamento de códigos.
+* Maven
+	Sistema para gestão de dependência e distribuição de uma aplicação.
+* REST
+	Arquitetura para transferência de dados representativos como JSON.
+* Heroku
+	Plataforma para hospedagem de aplicações com fácil integração com Github.
+    
+##Características da linguagem JAVA:
 
 - Compilada
 
@@ -279,7 +335,90 @@ JAVADOC
         
         @version - Descreve a versão da classe/método
        
-Comunidade JAVA
+##Tipos Profissionais JAVA
+Full Stack "Pilha Cheia"
+
+	- Programador Back-end
+    	Responsável pela camada que fica atrás da interação com o usuário, como acesso as regras de negócio, banco de dados, etc...
+        Também denominado Server Side (lado do Servidor) é responsável por disponibilizar os seguintes recursos:
+        
+        Regra de Negócio
+        Acesso a dados
+        Segurança
+        Integração via APIs / Web Service
+        
+        Este profissional precisa conhecer uma ou mais linguagem de programação e banco de dados disponíveis na empresa.
+        
+    - Programador Front-end
+		Diretamente ligado ao desenvolvimento da interface de tela do usuário com o sistema.
+        
+    	Deve pensar nos requisitos para o desenvolvimento de qualquer aplicação que necessite interação do usuário, como:
+        
+        Aparência
+        Usabilidade
+        Objetivo
+        Segurança
+        
+        Comsposto por uma linguage de programação a Java Script e tecnologias complementares que são conhecidas como: Hypertextos, Gerador de estilos, Bibliotecas ou Frameworks.
+
+    - Analista de Banco de Dados
+    - Analista de Infraestrutura (DevOps)
+
+	Este profissional deve dominar cada uma destas etapas acima. Para diminuir o tempo de compreensão do projeto e depender pouco de outras áreas.
+    
+## Tecnologia
+
+	- HTML
+    	Linguagem de marcação de hypertexto
+        
+	- CSS
+		Linguagem de estilização de conteúdo HTML
+        
+	- Bootstrap
+		Biblioteca de estilos CSS pré-definidos, criado pelo Twitter
+        
+	- JQuery
+		Biblioteca Javascript muito utilizada antes da era das aplicações SPA
+        
+    - Node JS
+    	Plataforma capaz de executar códigos JavaScript fora de um navegador web
+        
+    - VueJS
+    	Framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única.
+        
+    - React
+		Mesma proposta do VueJS com suas particularidades
+
+	- Angular
+		Mesma proposta do VueJS com suas particularidades
+        
+    - TypeScript
+    	Linguagem de programação desenvolvida pela Microsoft, com superconjunto sintático e estrito de JavaScript e adiciona tipagem estática opcional à linguagem
+        
+##Conceitos Importantes
+* API 
+	Significa interface de programação de aplicações, um conjunto de definições e protocolos para criar e integrar softwares de aplicações.
+    
+* Autowired
+	Um recurso em forma de anotação(indicação) onde deverá ocorrer uma injeção automática de dependência.
+
+* Beans
+	Objeto que é instanciado(criado), montado e gerenciado por um container através do princípio da inversão de controle.
+    
+
+* JSON
+	Significa JavaScript Object Notation, é uma formatação utilizada para estruturar dados em formato de texto e transmiti-los de um sistema para outro, como em aplicações cliente-servidor ou em aplicativos móveis.
+    
+* MVC
+	Sigla do termo em inglês Model (modelo) View (visão) e Controller (Controle) que facilita a troca de informações entre a interface do usuário aos dados no banco, fazendo com que as respostas sejam mais rápidas e dinâmicas.
+    
+* ORM
+	Object-Relational Mapping (ORM), em português, mapeamento objeto-relacional, é uma técnica para aproximar o paradigma de desenvolvimento de aplicações orientadas a objetos ao paradigma do banco de dados relacional.
+    
+* Scopes
+	Controle da existência de nossos objetos Components da aplicação em uma esfera de utilização: Singleton, Propotype, Reques, Session, Global.
+
+##Comunidade JAVA
 ---------------
 [OpenSanca](opensanca.com.br)
     
