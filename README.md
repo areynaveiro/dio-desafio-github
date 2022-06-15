@@ -13,6 +13,8 @@
 
 [GIT Download](https://git-scm.com/downloads)
 
+[Guia GIT](https://www.nobledesktop.com/learn/git/git-branches)
+
 [GITHUB](https://github.com/)
 
 [Eclipse IDE](https://www.eclipse.org/downloads/)
