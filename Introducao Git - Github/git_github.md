@@ -88,6 +88,10 @@ git config --list
 
 	Mostrara as configuracoes atuais
 	
+git checkout <branch> 
+	
+	Mudará o ponteiro para a branch mencionada
+	
 ###Para voltar uma determinada versão
 	git log --> pegar o hash
 	git checkout <hash>
